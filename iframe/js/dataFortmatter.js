@@ -2,7 +2,6 @@ export default (data) => {
   // By default the last item of each array is the "value".
   // All previous items are keys
   const tree = { name: "root", children: [] };
-  debugger;
   for (let i = 0; i < data.length; i++) {
     let root = tree.children;
     const value = data[i][data[i].length - 1];
